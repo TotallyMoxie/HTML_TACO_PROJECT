@@ -1,0 +1,1 @@
+This README is for me to confirm that I did this work on my own. I did not follow along with lesson 10 of Dave Gray's HTML video. I did fix the areas he added to in his video as a way to check my work, and correct mistakes. Those changes will be in my final commit of this html document. The areas that are different are simple titling conventions to make the project my own. 
