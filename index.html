@@ -3,7 +3,8 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Little Taco Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shaina Wareing">
     <meta name="description" content="This page contains information for The Little Taco Shop.">
     <title>The Little Taco Shop</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -11,30 +12,37 @@
   </head>
 
   <body>
-    <header>
-      <h1>Welcome to The Little Taco Shop</h1>
-      <nav aria-label="primary_navigation">
-        <ul>
+    <header class="header">
+      <h1 class="header__h1">Welcome to The Little Taco Shop</h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
           <li>
-            <a href="#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+            <a href="#menu">Menu</a>
           </li>
           <li>
-            <a href="#menu">Our Menu</a>
+            <a href="hours.html">Hours</a>
           </li>
           <li>
-            <a href="hours.html">Store Hours</a>
+            <a href="contact.html">Contact</a>
           </li>
           <li>
-            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About</a>
           </li>
         </ul>
       </nav>
-      <img src="img/tacos_and_drink_400x267.png" alt="Tacos and Drink" title="This is the perfect taco meal." width="400" height="267">
-      <figure>
-        <figcaption>Tacos and a Drink</figcaption>
-      </figure>
     </header>
-    <hr>
+
+    <section class="hero">
+      <h2 class="hero__h2">Bienvenidos!</h2>
+      <figure>
+        <img src="img/tacos_and_drink_1000x667.png" alt="Tacos and Drink" title="This is the perfect taco meal." width="1000" height="667">
+          <figcaption class="offscreen">
+            Tacos and a Drink 
+          </figcaption>
+      </figure>
+    </section>
+
+    
     <main>
       <article id="about">
         <h2>About LTS</h2>
